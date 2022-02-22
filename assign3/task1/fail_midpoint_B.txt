@@ -1,0 +1,1 @@
+midpoint B fails when an integer input is either less than 0, or greater than 214683647 because it the bits used to compute ranges from 0 to 214683647. Anything outside of this 32 bit system will result in an overflow.

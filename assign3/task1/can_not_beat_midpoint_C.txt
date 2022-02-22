@@ -1,0 +1,1 @@
+First thing midpoint c does is copy the bit to the result if it is shared in both x and y. Second part of it is copying the bit to the result only if it is apparent in only 1 of the variables. Then, it divides that result in 2 to return the true midpoint.
